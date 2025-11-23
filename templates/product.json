@@ -9,6 +9,27 @@
  */
 {
   "sections": {
+    "advanced_content_FDRx8D": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_DR3Qb4": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!-- ✅ Swiping Full-Width Offer Bar -->\n<div class=\"static-offer-bar\">\n  <div class=\"offer-wrapper\">\n    <span id=\"offer-text\">BUY 2 ITEMS, <strong>GET AN EXTRA 10% OFF!</strong></span>\n  </div>\n</div>\n\n<script>\n  const offers = [\n    'BUY 2 ITEMS, <strong>GET AN EXTRA 10% OFF!</strong>',\n    'BUY 3 ITEMS, <strong>GET AN EXTRA 15% OFF!</strong>',\n    'BUY 4 ITEMS, <strong>GET AN EXTRA 20% OFF!</strong>'\n  ];\n\n  let index = 0;\n  const offerText = document.getElementById('offer-text');\n\n  setInterval(() => {\n    // swipe out\n    offerText.style.transform = 'translateY(-100%)';\n    offerText.style.opacity = '0';\n    setTimeout(() => {\n      // update text\n      index = (index + 1) % offers.length;\n      offerText.innerHTML = offers[index];\n      // reset to below and swipe in\n      offerText.style.transform = 'translateY(100%)';\n      setTimeout(() => {\n        offerText.style.transform = 'translateY(0)';\n        offerText.style.opacity = '1';\n      }, 50);\n    }, 500);\n  }, 3000); // wisselt elke 3 seconden\n</script>\n\n<style>\n.static-offer-bar {\n  width: 100vw;\n  background-color: #000000;\n  color: #fff;\n  text-align: center;\n  font-size: 12px;\n  font-weight: 600;\n  padding: 6px 0;\n  position: relative;\n  left: 50%;\n  right: 50%;\n  margin-left: -50vw;\n  margin-right: -50vw;\n  box-sizing: border-box;\n  text-transform: uppercase;\n  font-family: inherit; /* gebruikt thema-lettertype */\n  overflow: hidden;\n}\n\n.offer-wrapper {\n  display: inline-block;\n  overflow: hidden;\n  height: 1.2em;\n}\n\n#offer-text {\n  display: inline-block;\n  transition: all 0.5s ease;\n  will-change: transform, opacity;\n}\n\n/* alleen zichtbaar op schermen kleiner dan 768px */\n@media screen and (max-width: 767px) {\n  .static-offer-bar {\n    display: block;\n  }\n}\n</style>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_DR3Qb4"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -96,7 +117,7 @@
         "product_zoom_enable": true,
         "thumbnail_position": "beside",
         "thumbnail_arrows": false,
-        "mobile_layout": "partial",
+        "mobile_layout": "full",
         "enable_video_looping": true,
         "product_video_style": "muted"
       }
@@ -217,6 +238,7 @@
     }
   },
   "order": [
+    "advanced_content_FDRx8D",
     "main",
     "sub",
     "background-image-text",
