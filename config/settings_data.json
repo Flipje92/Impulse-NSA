@@ -137,6 +137,14 @@
               "container_width": 95
             }
           },
+          "menu_L7TpjA": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "hoofdmenu",
+              "container_width": 25
+            }
+          },
           "1494301487049": {
             "type": "menu",
             "settings": {
@@ -157,6 +165,7 @@
         },
         "block_order": [
           "1494301487048",
+          "menu_L7TpjA",
           "1494301487049",
           "1494292487693"
         ],
