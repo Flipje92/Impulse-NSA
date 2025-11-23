@@ -68,6 +68,12 @@
             "surface_pickup_enable": true
           }
         },
+        "custom_3bVtEN": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"ultimate-badges\"></div>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -101,6 +107,7 @@
         "variant_picker",
         "custom_rG8DNm",
         "buy_buttons",
+        "custom_3bVtEN",
         "description",
         "tab",
         "contact",
