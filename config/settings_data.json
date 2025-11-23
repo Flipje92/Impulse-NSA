@@ -23,8 +23,8 @@
     "color_header_text": "#000000",
     "color_announcement": "#0f0f0f",
     "color_announcement_text": "#ffffff",
-    "color_footer": "#ffffff",
-    "color_footer_text": "#000000",
+    "color_footer": "#000000",
+    "color_footer_text": "#ffffff",
     "color_drawer_background": "#ffffff",
     "color_drawer_text": "#000000",
     "color_drawer_border": "#e8e8e1",
@@ -129,6 +129,14 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "1494301487048": {
+            "type": "logo_social",
+            "settings": {
+              "logo": "shopify://shop_images/Elowen_Boutique_wit_f286212c-7ab6-4a3a-8e03-09fb4f531009.svg",
+              "desktop_logo_height": 50,
+              "container_width": 95
+            }
+          },
           "1494301487049": {
             "type": "menu",
             "settings": {
@@ -145,20 +153,12 @@
               "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
               "container_width": 33
             }
-          },
-          "1494301487048": {
-            "type": "logo_social",
-            "settings": {
-              "logo": "shopify://shop_images/Elowen_Boutique_Zwart_0139c1bc-0e20-4868-a4f7-17ddb7ed8cff.svg",
-              "desktop_logo_height": 50,
-              "container_width": 95
-            }
           }
         },
         "block_order": [
+          "1494301487048",
           "1494301487049",
-          "1494292487693",
-          "1494301487048"
+          "1494292487693"
         ],
         "settings": {
           "show_locale_selector": false,
