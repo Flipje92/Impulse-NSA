@@ -322,18 +322,19 @@
       "type": "product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "You may also like",
+        "product_recommendations_heading": "BLACK FRIDAY – COMBINE AND SAVE 10% EXTRA",
         "related_count": 5
       }
     },
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
-        "subtitle": "Impressive",
-        "title": "About your brand",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+        "subtitle": "",
+        "title": "BLACK FRIDAY AT ELOWEN BOUTIQUE 🖤",
+        "text": "<p><strong>Black Friday is finally here</strong> – and so are our biggest savings of the season. Your favorite styles are now available at irresistible prices, but they’re selling out quickly.</p><p><strong>✨ Up to 70% OFF</strong></p><p>Once a style is gone, it’s gone for good – we won’t be restocking.<br/>If you can still add it to your cart, it’s available… but not for long.</p><p><strong>The sale ends soon.</strong> Treat yourself before your favorites disappear.</p>",
         "button_label": "",
         "button_link": "",
+        "image": "shopify://shop_images/ChatGPT_Image_13_nov_2025_07_16_38.png",
         "focal_point": "center",
         "layout": "left",
         "height": 550,
