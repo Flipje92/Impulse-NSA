@@ -56,6 +56,19 @@
         "divider": false
       }
     },
+    "featured_collection_EXmERT": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Bestsellers",
+        "home_featured_products": "bestsellers",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -407,6 +420,7 @@
   "order": [
     "slideshow",
     "featured-collection",
+    "featured_collection_EXmERT",
     "featured-collections",
     "rich-text",
     "promo-grid",
