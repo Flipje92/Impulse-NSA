@@ -70,11 +70,63 @@
         "enable_color_swatches": false,
         "enable_sort": false
       }
+    },
+    "ss_feature_1_pro_W4LBwr": {
+      "type": "ss-feature-1-pro",
+      "blocks": {
+        "slide_jg9adw": {
+          "type": "slide",
+          "settings": {
+            "icon": "truck",
+            "title": "<p>We deliver worldwide</p>",
+            "text": "<p>Get your package anywhere!</p>"
+          }
+        },
+        "slide_PYUR8i": {
+          "type": "slide",
+          "settings": {
+            "icon": "time",
+            "title": "<p>Satisfied or refunded</p>",
+            "text": "<p>Free returns within 14 days</p>"
+          }
+        },
+        "slide_wBg9tz": {
+          "type": "slide",
+          "settings": {
+            "icon": "payment",
+            "title": "<p>We are available 24/7</p>",
+            "text": "<p>Contact us by chat, mail, phone</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_jg9adw",
+        "slide_PYUR8i",
+        "slide_wBg9tz"
+      ],
+      "name": "SS - Feature #1 Pro",
+      "settings": {
+        "stack_on_mobile": false,
+        "center_on_desktop": true,
+        "items": 3,
+        "items_tablet": 3,
+        "icon_size": 30,
+        "title_size": 15,
+        "text_size": 13,
+        "title_color": "#000000",
+        "text_color": "#677279",
+        "icon_color": "#000000",
+        "pagination_color": "#000000",
+        "background-color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "text_and_image_cJDdkb",
     "collection-header",
-    "main-collection"
+    "main-collection",
+    "ss_feature_1_pro_W4LBwr"
   ]
 }
