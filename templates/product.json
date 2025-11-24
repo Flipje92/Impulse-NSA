@@ -425,60 +425,55 @@
       "type": "collection-return",
       "settings": {}
     },
-    "ss_trust_badges_FHir74": {
-      "type": "ss-trust-badges",
+    "ss_feature_1_pro_Af7fNr": {
+      "type": "ss-feature-1-pro",
       "blocks": {
-        "item_htNiiy": {
-          "type": "item",
+        "slide_qgVjfy": {
+          "type": "slide",
           "settings": {
             "icon": "truck",
-            "text": "<p>Free shipping</p>"
+            "title": "<p>Free Shipping</p>",
+            "text": "<p>We offer Free Shipping for maximum customer comfort. Your satisfaction is important to us, which is why we offer smooth and free delivery.</p>"
           }
         },
-        "item_8LBVUR": {
-          "type": "item",
+        "slide_naLeWd": {
+          "type": "slide",
           "settings": {
-            "icon": "return_arrow",
-            "text": "<p>30 days return</p>"
+            "icon": "time",
+            "title": "<p>30-Day Return Guarantee</p>",
+            "text": "<p>Your satisfaction is our focus. Our 30-day return policy guarantees you maximum flexibility and the best shopping experience.</p>"
           }
         },
-        "item_4GBz3y": {
-          "type": "item",
+        "slide_EBj8Fr": {
+          "type": "slide",
           "settings": {
             "icon": "payment",
-            "text": "<p>Secure checkout</p>"
+            "title": "<p>100% Secure Payment</p>",
+            "text": "<p>We offer you a variety of secure payment options. Pay easily and enjoy a safe shopping experience.</p>"
           }
         }
       },
       "block_order": [
-        "item_htNiiy",
-        "item_8LBVUR",
-        "item_4GBz3y"
+        "slide_qgVjfy",
+        "slide_naLeWd",
+        "slide_EBj8Fr"
       ],
-      "name": "SS - Trust badges #1",
+      "name": "SS - Feature #1 Pro",
       "settings": {
-        "trust_position": "below_buy",
-        "image_icon_size": 40,
-        "image_icon_size_mobile": 40,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 12,
-        "text_size_mobile": 10,
-        "text_advanced": false,
-        "text_height": 100,
-        "text_mt": 10,
+        "stack_on_mobile": false,
+        "center_on_desktop": true,
+        "items": 3,
+        "items_tablet": 3,
+        "icon_size": 30,
+        "title_size": 15,
+        "text_size": 13,
+        "title_color": "#000000",
+        "text_color": "#677279",
         "icon_color": "#000000",
-        "text_color": "#000000",
-        "background_color": "#FFFFFF",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "border_thickness": 0
+        "pagination_color": "#000000",
+        "background-color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -494,6 +489,6 @@
     "testimonials",
     "recently-viewed",
     "collection-return",
-    "ss_trust_badges_FHir74"
+    "ss_feature_1_pro_Af7fNr"
   ]
 }
