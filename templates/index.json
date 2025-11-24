@@ -37,11 +37,72 @@
       ],
       "settings": {
         "section_height": "750px",
-        "mobile_height": "auto",
-        "parallax": true,
+        "mobile_height": "250px",
+        "parallax": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 7
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "sets",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collections-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured-collections-0",
+        "featured-collections-1",
+        "featured-collections-2",
+        "featured-collections-3"
+      ],
+      "settings": {
+        "title": "Shop by category",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
       }
     },
     "rich-text": {
@@ -128,55 +189,6 @@
         "space_below": false
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "featured-collections-0",
-        "featured-collections-1",
-        "featured-collections-2",
-        "featured-collections-3"
-      ],
-      "settings": {
-        "title": "Shop by category",
-        "divider": false,
-        "per_row": 4,
-        "enable_gutter": true
-      }
-    },
     "promo-grid2": {
       "type": "promo-grid",
       "blocks": {
@@ -240,18 +252,6 @@
         "gutter_size": 20,
         "space_above": false,
         "space_below": false
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
       }
     },
     "background-image-text": {
@@ -406,11 +406,11 @@
   },
   "order": [
     "slideshow",
+    "featured-collection",
+    "featured-collections",
     "rich-text",
     "promo-grid",
-    "featured-collections",
     "promo-grid2",
-    "featured-collection",
     "background-image-text",
     "blog-posts",
     "ss_trust_badges_X3eYay",
