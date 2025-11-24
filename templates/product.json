@@ -37,6 +37,10 @@
           "type": "price",
           "settings": {}
         },
+        "separator_bqr3x3": {
+          "type": "separator",
+          "settings": {}
+        },
         "custom_fUNRHB": {
           "type": "custom",
           "settings": {
@@ -110,6 +114,7 @@
       },
       "block_order": [
         "price",
+        "separator_bqr3x3",
         "custom_fUNRHB",
         "separator",
         "variant_picker",
