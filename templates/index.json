@@ -182,6 +182,19 @@
         "divider": false
       }
     },
+    "featured_collection_mY9xdN": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Dresses",
+        "home_featured_products": "dresses",
+        "per_row": 5,
+        "rows": 2,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "ss_feature_1_pro_9tCTEr": {
       "type": "ss-feature-1-pro",
       "blocks": {
@@ -243,6 +256,7 @@
     "contact_form_jPrqTn",
     "featured_collection_Q3yyNb",
     "featured_collection_mPPxUH",
+    "featured_collection_mY9xdN",
     "ss_feature_1_pro_9tCTEr"
   ]
 }
