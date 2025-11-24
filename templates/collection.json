@@ -1,1 +1,80 @@
-{"sections":{"collection-header":{"type":"collection-header","settings":{}},"main-collection":{"type":"main-collection","blocks":{"collection_description":{"type":"collection_description","settings":{}},"product_grid":{"type":"product_grid","settings":{}},"subcollections":{"type":"subcollections","settings":{}}},"block_order":["collection_description","subcollections","product_grid"],"settings":{}},"promo-grid":{"type":"promo-grid","blocks":{"banner":{"type":"banner","settings":{"color_tint":"#E95454"}},"advanced":{"type":"advanced","settings":{}}},"block_order":["banner","advanced"],"settings":{"space_below":false}}},"order":["collection-header","promo-grid","main-collection"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "text_and_image_cJDdkb": {
+      "type": "text-and-image",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_18_nov_2025_23_17_31.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>Black Friday has officially begun at <strong>Elowen Boutique</strong> — giving you exclusive first access to our biggest offers of the year. ✨</p><p>Enjoy up to <strong>70% OFF sitewide</strong>, plus:<br/>✨ <strong>10% EXTRA</strong> on 2 items<br/>✨ <strong>15% EXTRA</strong> on 3 items<br/>✨ <strong>20% EXTRA</strong> on 4 items</p><p>Your discounts are applied automatically at checkout.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": false,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    }
+  },
+  "order": [
+    "text_and_image_cJDdkb",
+    "collection-header",
+    "main-collection"
+  ]
+}
