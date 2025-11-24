@@ -300,17 +300,6 @@
         "divider": false
       }
     },
-    "map": {
-      "type": "map",
-      "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm</p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
-        "api_key": "",
-        "show_button": true,
-        "background_image_position": "center center"
-      }
-    },
     "ss_trust_badges_X3eYay": {
       "type": "ss-trust-badges",
       "blocks": {
@@ -355,7 +344,7 @@
         "text_mt": 10,
         "icon_color": "#000000",
         "text_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -365,6 +354,18 @@
         "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
         "border_thickness": 0
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br/>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br/>Saturday, 8:30am - 10:30pm<br/>Sunday, 8:30am - 10:30pm</p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
       }
     }
   },
@@ -377,7 +378,7 @@
     "featured-collection",
     "background-image-text",
     "blog-posts",
-    "map",
-    "ss_trust_badges_X3eYay"
+    "ss_trust_badges_X3eYay",
+    "map"
   ]
 }
