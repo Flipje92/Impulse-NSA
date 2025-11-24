@@ -368,6 +368,9 @@
     "checkout": {
       "shipping_errors": {
         "empty_state": "Free Premium Shipping + Track & Trace"
+      },
+      "general": {
+        "pay_now_button_label": "Complete Order"
       }
     }
   }
