@@ -73,7 +73,7 @@
       "type": "background-image-text",
       "settings": {
         "subtitle": "",
-        "title": "Large image with text box",
+        "title": "BLACK FRIDAY AT ELOWEN BOUTIQUE 🖤",
         "text": "<p><strong>Black Friday is finally here</strong> – and so are our biggest savings of the season. Your favorite styles are now available at irresistible prices, but they’re selling out quickly.</p><p><strong>✨ Up to 70% OFF</strong></p><p>Once a style is gone, it’s gone for good – we won’t be restocking.<br/>If you can still add it to your cart, it’s available… but not for long.</p><p><strong>The sale ends soon.</strong> Treat yourself before your favorites disappear.</p>",
         "button_label": "",
         "button_link": "shopify://collections/all",
@@ -83,21 +83,6 @@
         "height": 750,
         "framed": false,
         "parallax": true
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "From the journal",
-        "blog": "news",
-        "post_limit": 3,
-        "blog_show_tags": false,
-        "blog_show_date": true,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": true,
-        "blog_image_size": "wide",
-        "divider": false
       }
     },
     "ss_trust_badges_X3eYay": {
@@ -225,7 +210,6 @@
     "featured-collection",
     "featured_collection_EXmERT",
     "background-image-text",
-    "blog-posts",
     "ss_trust_badges_X3eYay",
     "map",
     "ss_feature_1_pro_9tCTEr"
