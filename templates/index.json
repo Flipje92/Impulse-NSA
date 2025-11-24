@@ -310,6 +310,62 @@
         "show_button": true,
         "background_image_position": "center center"
       }
+    },
+    "ss_trust_badges_X3eYay": {
+      "type": "ss-trust-badges",
+      "blocks": {
+        "item_kwHNRy": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "text": "<p>Free shipping</p>"
+          }
+        },
+        "item_KgrjiN": {
+          "type": "item",
+          "settings": {
+            "icon": "return_arrow",
+            "text": "<p>30 days return</p>"
+          }
+        },
+        "item_tamxH6": {
+          "type": "item",
+          "settings": {
+            "icon": "payment",
+            "text": "<p>Secure checkout</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_kwHNRy",
+        "item_KgrjiN",
+        "item_tamxH6"
+      ],
+      "name": "SS - Trust badges #1",
+      "settings": {
+        "trust_position": "below_buy",
+        "image_icon_size": 40,
+        "image_icon_size_mobile": 40,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 10,
+        "text_advanced": false,
+        "text_height": 100,
+        "text_mt": 10,
+        "icon_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0
+      }
     }
   },
   "order": [
@@ -321,6 +377,7 @@
     "featured-collection",
     "background-image-text",
     "blog-posts",
-    "map"
+    "map",
+    "ss_trust_badges_X3eYay"
   ]
 }
