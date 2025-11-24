@@ -47,11 +47,11 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "sets",
+        "title": "BLACK FRIDAY DEALS",
+        "home_featured_products": "black-friday",
         "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
+        "rows": 2,
+        "mobile_scrollable": false,
         "view_all": true,
         "divider": false
       }
