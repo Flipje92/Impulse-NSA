@@ -88,19 +88,18 @@
         },
         "tab": {
           "type": "tab",
-          "disabled": true,
           "settings": {
-            "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "title": "Free premium shipping",
+            "content": "<p>We ship using a secure premium shipping method, including tracking, so you can rely on the most reliable service. Currently, we offer this premium shipping for free, take advantage of this offer while it's available!</p>",
             "page": ""
           }
         },
-        "contact": {
-          "type": "contact",
-          "disabled": true,
+        "tab_AmQ89p": {
+          "type": "tab",
           "settings": {
-            "title": "Ask a question",
-            "phone": false
+            "title": "30-Day Money Back Guarantee",
+            "content": "<p>Doesn't fit? No problem! You can exchange or return it anytime, with a 30-day return policy.</p>",
+            "page": ""
           }
         },
         "share": {
@@ -120,7 +119,7 @@
         "custom_AWVUR3",
         "description",
         "tab",
-        "contact",
+        "tab_AmQ89p",
         "share"
       ],
       "settings": {
