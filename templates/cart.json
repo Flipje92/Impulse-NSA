@@ -1,1 +1,79 @@
-{"sections":{"main":{"type":"main-cart","settings":{}},"recently-viewed":{"type":"recently-viewed","settings":{}},"featured-collection":{"type":"featured-collection","settings":{"title":"Popular picks"}}},"order":["main","recently-viewed","featured-collection"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {}
+    },
+    "ss_feature_1_pro_QQL7EP": {
+      "type": "ss-feature-1-pro",
+      "blocks": {
+        "slide_8RqKM8": {
+          "type": "slide",
+          "settings": {
+            "icon": "truck",
+            "title": "<p>Free Shipping</p>",
+            "text": "<p>We offer Free Shipping for maximum customer comfort. Your satisfaction is important to us, which is why we offer smooth and free delivery.</p>"
+          }
+        },
+        "slide_UiWKVa": {
+          "type": "slide",
+          "settings": {
+            "icon": "time",
+            "title": "<p>30-Day Return Guarantee</p>",
+            "text": "<p>Your satisfaction is our focus. Our 30-day return policy guarantees you maximum flexibility and the best shopping experience.</p>"
+          }
+        },
+        "slide_PU9dBi": {
+          "type": "slide",
+          "settings": {
+            "icon": "payment",
+            "title": "<p>100% Secure Payments</p>",
+            "text": "<p>We offer you a variety of secure payment options. Pay easily and enjoy a safe shopping experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_8RqKM8",
+        "slide_UiWKVa",
+        "slide_PU9dBi"
+      ],
+      "name": "SS - Feature #1 Pro",
+      "settings": {
+        "stack_on_mobile": false,
+        "center_on_desktop": true,
+        "items": 3,
+        "items_tablet": 3,
+        "icon_size": 30,
+        "title_size": 15,
+        "text_size": 13,
+        "title_color": "#000000",
+        "text_color": "#677279",
+        "icon_color": "#000000",
+        "pagination_color": "#000000",
+        "background-color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_feature_1_pro_QQL7EP",
+    "recently-viewed"
+  ]
+}
