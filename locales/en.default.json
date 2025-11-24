@@ -125,7 +125,7 @@
       "title": "Cart",
       "remove": "Remove",
       "note": "Order note",
-      "subtotal": "Subtotal",
+      "subtotal": "Total",
       "discounts": "Discounts",
       "shipping_at_checkout": "Free Shipping | 30-Day Return Guarantee",
       "update": "Update cart",
@@ -371,6 +371,9 @@
       },
       "general": {
         "pay_now_button_label": "Complete Order"
+      },
+      "order_summary": {
+        "subtotal_label": "Total"
       }
     }
   }
