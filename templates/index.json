@@ -12,23 +12,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Two line\ntitle slide.",
-            "title_size": 80,
-            "subheading": "And optional subtext",
-            "link": "shopify://collections/all",
-            "link_text": "Shop this",
-            "link_2": "shopify://collections/all",
-            "link_text_2": "Shop all",
-            "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
-          }
-        },
         "slideshow-1": {
           "type": "image",
           "settings": {
@@ -42,13 +25,14 @@
             "link_text_2": "Shop all",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/ChatGPT_Image_18_nov_2025_23_17_31.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_18_nov_2025_23_17_31.png",
             "overlay_opacity": 0,
             "focal_point": "top center"
           }
         }
       },
       "block_order": [
-        "slideshow-0",
         "slideshow-1"
       ],
       "settings": {
