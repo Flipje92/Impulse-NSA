@@ -125,7 +125,7 @@
           "announcement_eGnyCj"
         ],
         "settings": {
-          "main_menu_link_list": "main-menu",
+          "main_menu_link_list": "hoofdmenu",
           "mega_menu_images": true,
           "main_menu_alignment": "center-split",
           "header_style": "sticky",
