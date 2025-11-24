@@ -57,24 +57,24 @@
           "type": "slide",
           "settings": {
             "icon": "truck",
-            "title": "<p>We deliver worldwide</p>",
-            "text": "<p>Get your package anywhere!</p>"
+            "title": "<p>Free Shipping</p>",
+            "text": "<p>We offer Free Shipping for maximum customer comfort. Your satisfaction is important to us, which is why we offer smooth and free delivery.</p>"
           }
         },
         "slide_HcCFkW": {
           "type": "slide",
           "settings": {
             "icon": "time",
-            "title": "<p>Satisfied or refunded</p>",
-            "text": "<p>Free returns within 14 days</p>"
+            "title": "<p>30-Day Return Guarantee</p>",
+            "text": "<p>Your satisfaction is our focus. Our 30-day return policy guarantees you maximum flexibility and the best shopping experience.</p>"
           }
         },
         "slide_fMHVVq": {
           "type": "slide",
           "settings": {
             "icon": "payment",
-            "title": "<p>We are available 24/7</p>",
-            "text": "<p>Contact us by chat, mail, phone</p>"
+            "title": "<p>100% Secure Payments</p>",
+            "text": "<p>We offer you a variety of secure payment options. Pay easily and enjoy a safe shopping experience.</p>"
           }
         }
       },
@@ -92,11 +92,11 @@
         "icon_size": 30,
         "title_size": 15,
         "text_size": 13,
-        "title_color": "#1e2d7d",
+        "title_color": "#000000",
         "text_color": "#677279",
-        "icon_color": "#1e2d7d",
-        "pagination_color": "#1e2d7d",
-        "background-color": "#f3f5f6",
+        "icon_color": "#000000",
+        "pagination_color": "#000000",
+        "background-color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
       }
