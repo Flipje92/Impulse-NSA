@@ -78,24 +78,24 @@
           "type": "slide",
           "settings": {
             "icon": "truck",
-            "title": "<p>We deliver worldwide</p>",
-            "text": "<p>Get your package anywhere!</p>"
+            "title": "<p>Free Shipping</p>",
+            "text": "<p>We offer Free Shipping for maximum customer comfort. Your satisfaction is important to us, which is why we offer smooth and free delivery.</p>"
           }
         },
         "slide_PYUR8i": {
           "type": "slide",
           "settings": {
             "icon": "time",
-            "title": "<p>Satisfied or refunded</p>",
-            "text": "<p>Free returns within 14 days</p>"
+            "title": "<p>30-Day Money Back Guarantee</p>",
+            "text": "<p>Your satisfaction is our focus. Our 30-day return policy guarantees you maximum flexibility and the best shopping experience.</p>"
           }
         },
         "slide_wBg9tz": {
           "type": "slide",
           "settings": {
             "icon": "payment",
-            "title": "<p>We are available 24/7</p>",
-            "text": "<p>Contact us by chat, mail, phone</p>"
+            "title": "<p>100% Secure Payments</p>",
+            "text": "<p>We offer you a variety of secure payment options. Pay easily and enjoy a safe shopping experience.</p>"
           }
         }
       },
