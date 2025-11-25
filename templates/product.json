@@ -80,8 +80,15 @@
         },
         "custom_AWVUR3": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "<div class=\"m-product-text\">\n  <div class=\"sale-banner\">\n    <p class=\"headline\">BLACK FRIDAY SALE IS LIVE</p>\n    <p class=\"discount\">Up to 70% OFF</p>\n    <p class=\"description\">Now is the time to shop your favourite items at irresistible prices. As long as stocks last!</p>\n  </div>\n\n  <style>\n    .sale-banner {\n      border: 1px solid black;\n      padding: 18px;\n      background-color: #F9F9F9;\n      text-align: center;\n      width: 100%;\n      margin: 0 auto;\n      box-sizing: border-box;\n    }\n\n    .sale-banner .headline {\n      color: #d32f2f;\n      font-size: 24px;\n      font-weight: bold;\n      margin-bottom: 5px;\n      text-transform: uppercase;\n    }\n\n    .sale-banner .discount {\n      color: #000000;\n      font-size: 16px;\n      font-weight: bold;\n      margin-bottom: 10px;\n      text-transform: uppercase;\n    }\n\n    .sale-banner .description {\n      color: #666666;\n      font-size: 16px;\n      line-height: 1.5;\n    }\n\n    @media (max-width: 768px) {\n      .sale-banner {\n        padding: 15px;\n      }\n\n      .sale-banner .headline {\n        font-size: 20px;\n      }\n\n      .sale-banner .discount {\n        font-size: 16px;\n      }\n\n      .sale-banner .description {\n        font-size: 14px;\n      }\n    }\n\n    @media (max-width: 480px) {\n      .sale-banner {\n        padding: 10px;\n      }\n\n      .sale-banner .headline {\n        font-size: 20px;\n      }\n\n      .sale-banner .discount {\n        font-size: 16px;\n      }\n\n      .sale-banner .description {\n        font-size: 12px;\n      }\n    }\n  </style>\n</div>"
+          }
+        },
+        "custom_NKRqdB": {
+          "type": "custom",
+          "settings": {
+            "code": "<!-- Low Stock Banner -->\n<div class=\"closure-banner\" style=\"\n  background:#FFF5F5;\n  border:1px solid #F4CACA;\n  padding:14px 12px;\n  text-align:center;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n  margin:16px 0;\n\">\n  <div class=\"closure-banner-heading\" style=\"\n    color:#de1d3d;\n    font-weight:700;\n    font-size:14px;\n    line-height:1.2;\n    margin-bottom:6px;\n  \">\n    UPDATE: Limited Stock During Black Friday!\n  </div>\n  <div class=\"closure-banner-dates\" style=\"\n    color:#3D3D3D;\n    font-size:12px;\n    line-height:1.4;\n    max-width:640px;\n    margin:0 auto;\n  \">\n    If you can still add it to your cart, it’s available — but running out fast!\n  </div>\n</div>"
           }
         },
         "description": {
@@ -122,6 +129,7 @@
         "buy_buttons",
         "custom_3bVtEN",
         "custom_AWVUR3",
+        "custom_NKRqdB",
         "description",
         "tab",
         "tab_AmQ89p",
