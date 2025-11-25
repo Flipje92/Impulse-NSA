@@ -151,6 +151,15 @@
               "container_width": 95
             }
           },
+          "custom_TwLUpF": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": true,
+              "title": "ABOUT US",
+              "text": "<p>At <strong>Elowen Boutique</strong>, we stand behind every piece we create — and our promise is simple: you’ll love your purchase.</p><p>With years of experience in the fashion world, Elowen Boutique has earned a reputation for quality, elegance, and trust. We’re proud to continue crafting timeless styles that inspire confidence with every wear.</p>",
+              "container_width": 25
+            }
+          },
           "menu_L7TpjA": {
             "type": "menu",
             "settings": {
@@ -187,6 +196,7 @@
         },
         "block_order": [
           "1494301487048",
+          "custom_TwLUpF",
           "menu_L7TpjA",
           "menu_VGdGaL",
           "1494301487049",
