@@ -308,6 +308,11 @@
         "type": "shopify://apps/opus-cart-upsell/blocks/cart-drawer-app/6a3c5cf8-b330-4c39-a8c5-80f923c2e741",
         "disabled": false,
         "settings": {}
+      },
+      "17198465164502963513": {
+        "type": "shopify://apps/parcel-panel/blocks/app.embed/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -862,13 +867,13 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product__price.on-sale {font-weight: bold; color: #05b67a; font-size: 1.3rem; }",
-      " @media only screen and (max-width: 767px) {.product-single__meta, .product-block--header, .product-single__title, .product-single__description, .product__price, .product-form, .product-form__controls, .product-popup-modal__content, .product-popup-modal__content * {text-align: left !important; } }",
-      " @media only screen and (max-width: 767px) {.product-block--sales-point, .product-block--sales-point * {text-align: left !important; justify-content: flex-start !important; align-items: flex-start !important; } .product-block--sales-point .icon-and-text {display: flex; flex-direction: row; align-items: center; } .product-block--sales-point .sales-point {padding-left: 0 !important; margin-left: 0 !important; } }",
-      " .product__price--compare {color: #928c82 !important; }",
-      " .BC-trustscore-container {display: flex; align-items: center; font-size: 1rem; color: #333; gap: 8px; flex-wrap: nowrap; overflow: hidden; white-space: nowrap; margin-bottom: 16px; }",
-      " .product-single__title {margin-top: 4px !important; margin-bottom: -20px !important; }",
-      " .cart-link__bubble {color: transparent !important; /* tekst (het getal) verdwijnt */ font-size: 0 !important; /* zorgt dat er echt geen rest-ruimte staat */ }"
+      ".product__price.on-sale {font-weight: bold; color: #05b67a; font-size: 1.3rem;}",
+      "@media only screen and (max-width: 767px) {.product-single__meta, .product-block--header, .product-single__title, .product-single__description, .product__price, .product-form, .product-form__controls, .product-popup-modal__content, .product-popup-modal__content * {text-align: left !important; }}",
+      "@media only screen and (max-width: 767px) {.product-block--sales-point, .product-block--sales-point * {text-align: left !important; justify-content: flex-start !important; align-items: flex-start !important; } .product-block--sales-point .icon-and-text {display: flex; flex-direction: row; align-items: center; } .product-block--sales-point .sales-point {padding-left: 0 !important; margin-left: 0 !important; }}",
+      ".product__price--compare {color: #928c82 !important;}",
+      ".BC-trustscore-container {display: flex; align-items: center; font-size: 1rem; color: #333; gap: 8px; flex-wrap: nowrap; overflow: hidden; white-space: nowrap; margin-bottom: 16px;}",
+      ".product-single__title {margin-top: 4px !important; margin-bottom: -20px !important;}",
+      ".cart-link__bubble {color: transparent !important; /* tekst (het getal) verdwijnt */ font-size: 0 !important; /* zorgt dat er echt geen rest-ruimte staat */}"
     ]
   }
 }
