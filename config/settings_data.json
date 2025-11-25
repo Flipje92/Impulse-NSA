@@ -863,12 +863,12 @@
   "platform_customizations": {
     "custom_css": [
       ".product__price.on-sale {font-weight: bold; color: #05b67a; font-size: 1.3rem;}",
-      "@media only screen and (max-width: 767px) {.product-single__meta, .product-block--header, .product-single__title, .product-single__description, .product__price, .product-form, .product-form__controls, .product-popup-modal__content, .product-popup-modal__content * {text-align: left !important; }}",
-      "@media only screen and (max-width: 767px) {.product-block--sales-point, .product-block--sales-point * {text-align: left !important; justify-content: flex-start !important; align-items: flex-start !important; } .product-block--sales-point .icon-and-text {display: flex; flex-direction: row; align-items: center; } .product-block--sales-point .sales-point {padding-left: 0 !important; margin-left: 0 !important; }}",
+      "/* Alleen binnen de productsectie op mobiel uitlijnen */@media only screen and (max-width: 767px) {.product-section .product-single__meta, .product-section .product-block--header, .product-section .product-single__title, .product-section .product-single__description, .product-section .product__price, .product-section .product-form, .product-section .product-form__controls, .product-section .product-popup-modal__content, .product-section .product-popup-modal__content * {text-align: left !important; }}",
+      "@media only screen and (max-width: 767px) {.product-section .product-block--sales-point, .product-section .product-block--sales-point * {text-align: left !important; justify-content: flex-start !important; align-items: flex-start !important; } .product-section .product-block--sales-point .icon-and-text {display: flex; flex-direction: row; align-items: center; } .product-section .product-block--sales-point .sales-point {padding-left: 0 !important; margin-left: 0 !important; }}",
       ".product__price--compare {color: #928c82 !important;}",
       ".BC-trustscore-container {display: flex; align-items: center; font-size: 1rem; color: #333; gap: 8px; flex-wrap: nowrap; overflow: hidden; white-space: nowrap; margin-bottom: 16px;}",
       ".product-single__title {margin-top: 4px !important; margin-bottom: -20px !important;}",
-      ".cart-link__bubble {color: transparent !important; /* tekst (het getal) verdwijnt */ font-size: 0 !important; /* zorgt dat er echt geen rest-ruimte staat */}"
+      "/* Cart bubble getal verbergen */.cart-link__bubble {color: transparent !important; /* tekst (het getal) verdwijnt */ font-size: 0 !important; /* zorgt dat er echt geen rest-ruimte staat */}"
     ]
   }
 }
