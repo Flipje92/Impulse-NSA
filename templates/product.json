@@ -94,8 +94,15 @@
         },
         "custom_NKRqdB": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "<!-- Low Stock Banner -->\n<div class=\"closure-banner\" style=\"\n  background:#FFF5F5;\n  border:1px solid #F4CACA;\n  padding:14px 12px;\n  text-align:center;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n  margin:16px 0;\n\">\n  <div class=\"closure-banner-heading\" style=\"\n    color:#de1d3d;\n    font-weight:700;\n    font-size:14px;\n    line-height:1.2;\n    margin-bottom:6px;\n  \">\n    UPDATE: Limited Stock During Cyber Week!\n  </div>\n  <div class=\"closure-banner-dates\" style=\"\n    color:#3D3D3D;\n    font-size:12px;\n    line-height:1.4;\n    max-width:640px;\n    margin:0 auto;\n  \">\n    If you can still add it to your cart, it’s available — but running out fast!\n  </div>\n</div>"
+          }
+        },
+        "custom_qY9CXE": {
+          "type": "custom",
+          "settings": {
+            "code": "<!-- Cyber Week Banner (Light Version – No Black) -->\n<div class=\"closure-banner\" style=\"\n  background:#E8F9FF;\n  border:1px solid #8FF2FF;\n  padding:14px 12px;\n  text-align:center;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n  margin:16px 0;\n  border-radius:6px;\n\">\n  <div class=\"closure-banner-heading\" style=\"\n    color:#00C2FF;\n    font-weight:700;\n    font-size:14px;\n    line-height:1.2;\n    margin-bottom:6px;\n    text-transform:uppercase;\n    letter-spacing:0.5px;\n  \">\n    UPDATE: Limited Stock During Cyber Week!\n  </div>\n  <div class=\"closure-banner-dates\" style=\"\n    color:#4A4A4A;\n    font-size:12px;\n    line-height:1.4;\n    max-width:640px;\n    margin:0 auto;\n  \">\n    If you can still add it to your cart, it’s available — but running out fast!\n  </div>\n</div>"
           }
         },
         "description": {
@@ -138,6 +145,7 @@
         "custom_3bVtEN",
         "custom_AWVUR3",
         "custom_NKRqdB",
+        "custom_qY9CXE",
         "description",
         "tab",
         "tab_AmQ89p",
