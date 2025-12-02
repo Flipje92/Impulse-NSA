@@ -95,25 +95,17 @@
           "1524770292306": {
             "type": "announcement",
             "settings": {
-              "text": "CYBER SALE",
+              "text": "CYBER SALE ENDS TONIGHT",
               "link_text": "UP TO 70% OFF",
               "link": ""
             }
           },
           "1524770296206": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "LIMITED STOCK",
               "link_text": "ONCE IT'S GONE, IT'S GONE",
-              "link": ""
-            }
-          },
-          "announcement_eGnyCj": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "FREE SHIPPING",
-              "link_text": "FOR ALL ORDERS",
               "link": ""
             }
           }
@@ -121,8 +113,7 @@
         "block_order": [
           "1524770014057",
           "1524770292306",
-          "1524770296206",
-          "announcement_eGnyCj"
+          "1524770296206"
         ],
         "settings": {
           "main_menu_link_list": "hoofdmenu",
