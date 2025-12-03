@@ -178,7 +178,7 @@
           "1494292487693": {
             "type": "newsletter",
             "settings": {
-              "show_footer_title": true,
+              "show_footer_title": false,
               "title": "Sign up and save",
               "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
               "container_width": 33
