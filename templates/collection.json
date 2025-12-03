@@ -13,11 +13,11 @@
       "type": "text-and-image",
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/Gemini_Generated_Image_3twdt23twdt23twd.png",
+        "image": "shopify://shop_images/unnamed.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "",
-        "text": "<p><strong>Today is the final day of our Cyber Sale at Elowen Boutique — your last chance to shop our biggest offers of the entire year.</strong><br/></p><p>Enjoy up to <strong>70% OFF</strong> sitewide, plus:<br/>✨ <strong>10% EXTRA</strong> on 2 items<br/>✨ <strong>15% EXTRA</strong> on 3 items<br/>✨ <strong>20% EXTRA</strong> on 4 items</p><p>All extra discounts are applied automatically at checkout.</p>",
+        "text": "<p><strong>Today is the final day of our Final Clearance Sale at Elowen Boutique — your last chance to shop our biggest offers of the entire year.<br/>Enjoy up to 70% OFF sitewide, plus:</strong></p><p>✨ <strong>10% EXTRA</strong> on 2 items<br/>✨ <strong>15% EXTRA</strong> on 3 items<br/>✨ <strong>20% EXTRA</strong> on 4 items</p><p>All extra discounts are applied automatically at checkout.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
