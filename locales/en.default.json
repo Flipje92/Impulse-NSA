@@ -373,7 +373,8 @@
         "pay_now_button_label": "Complete Order"
       },
       "order_summary": {
-        "subtotal_label": "Total"
+        "subtotal_label": "Total",
+        "enter_shipping_address": "FREE"
       }
     }
   }
