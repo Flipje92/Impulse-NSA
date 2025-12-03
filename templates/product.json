@@ -81,6 +81,7 @@
         },
         "custom_rfPzQF": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "<div class=\"product-block\">\n  <div class=\"product-block\">\n    <div class=\"custom-shipping-container\">\n      <div class=\"custom-shipping-item\">\n        <svg class=\"green-circle\" xmlns=\"http://www.w3.org/2000/svg\" width=\"8\" height=\"8\" viewBox=\"0 0 12 13\" fill=\"none\">\n          <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#373d20\"></circle>\n        </svg>\n        <div class=\"text-block-shipping\">\n          Shipping on <span id=\"shipping-date\" class=\"shipping-date\">Mon. 08.09</span>\n        </div>\n      </div>\n\n      <div class=\"custom-shipping-item\">\n        <p id=\"locationinfop\" style=\"display: flex; align-items: center; margin-bottom: 0;\">\n          <img \n            src=\"https://cdn.shopify.com/s/files/1/0981/7220/7450/files/1200x873.jpg?v=1760380356\" \n            width=\"14\" \n            height=\"14\" \n            style=\"margin-right:5px; border-radius:50%; object-fit:cover; aspect-ratio: 1 / 1;\" \n            alt=\"US-Flag\">\n          <span>Free shipping</span>\n        </p>\n      </div>\n    </div>\n\n    <style>\n      .custom-shipping-container {\n        display: flex;\n        margin-top: -16px;\n        margin-bottom: 20px;\n        justify-content: space-between;\n        align-items: center;\n        align-self: stretch;\n        border-radius: 4px;\n        background: #F3F3F3;\n        padding: 8px 12px;\n        font-size: 13px;\n        line-height: 1.4;\n        color: #000;\n      }\n\n      .shipping-date {\n        font-weight: bold;\n      }\n\n      .custom-shipping-item {\n        display: flex;\n        gap: 8px;\n        align-items: center;\n      }\n\n      #locationinfop {\n        text-align: center;\n        font-weight: 600;\n      }\n\n      @media screen and (max-width: 700px) {\n        .custom-shipping-container {\n          font-size: 11px;\n        }\n      }\n    </style>\n\n    <script>\n      (function () {\n        const el = document.getElementById('shipping-date');\n        if (!el) return;\n\n        const weekdays = ['Sun.', 'Mon.', 'Tue.', 'Wed.', 'Thu.', 'Fri.', 'Sat.'];\n        const today = new Date();\n\n        // Start with today + 2 days\n        const target = new Date(today);\n        target.setDate(target.getDate() + 2);\n\n        // If the date falls on Saturday (6) → +2 days → Monday\n        // If the date falls on Sunday (0) → +1 day → Monday\n        const day = target.getDay();\n        if (day === 6) {\n          target.setDate(target.getDate() + 2);\n        } else if (day === 0) {\n          target.setDate(target.getDate() + 1);\n        }\n\n        const dd = String(target.getDate()).padStart(2, '0');\n        const mm = String(target.getMonth() + 1).padStart(2, '0');\n        const dow = weekdays[target.getDay()];\n\n        el.textContent = `${dow} ${dd}.${mm}`;\n      })();\n    </script>\n  </div>\n</div>"
           }
@@ -89,13 +90,6 @@
           "type": "custom",
           "settings": {
             "code": "<div class=\"ultimate-badges\"></div>"
-          }
-        },
-        "custom_AWVUR3": {
-          "type": "custom",
-          "disabled": true,
-          "settings": {
-            "code": "<div class=\"m-product-text\">\n  <div class=\"sale-banner\">\n    <p class=\"headline\">BLACK FRIDAY SALE IS LIVE</p>\n    <p class=\"discount\">Up to 70% OFF</p>\n    <p class=\"description\">Now is the time to shop your favourite items at irresistible prices. As long as stocks last!</p>\n  </div>\n\n  <style>\n    .sale-banner {\n      border: 1px solid black;\n      padding: 18px;\n      background-color: #F9F9F9;\n      text-align: center;\n      width: 100%;\n      margin: 0 auto;\n      box-sizing: border-box;\n    }\n\n    .sale-banner .headline {\n      color: #d32f2f;\n      font-size: 24px;\n      font-weight: bold;\n      margin-bottom: 5px;\n      text-transform: uppercase;\n    }\n\n    .sale-banner .discount {\n      color: #000000;\n      font-size: 16px;\n      font-weight: bold;\n      margin-bottom: 10px;\n      text-transform: uppercase;\n    }\n\n    .sale-banner .description {\n      color: #666666;\n      font-size: 16px;\n      line-height: 1.5;\n    }\n\n    @media (max-width: 768px) {\n      .sale-banner {\n        padding: 15px;\n      }\n\n      .sale-banner .headline {\n        font-size: 20px;\n      }\n\n      .sale-banner .discount {\n        font-size: 16px;\n      }\n\n      .sale-banner .description {\n        font-size: 14px;\n      }\n    }\n\n    @media (max-width: 480px) {\n      .sale-banner {\n        padding: 10px;\n      }\n\n      .sale-banner .headline {\n        font-size: 20px;\n      }\n\n      .sale-banner .discount {\n        font-size: 16px;\n      }\n\n      .sale-banner .description {\n        font-size: 12px;\n      }\n    }\n  </style>\n</div>"
           }
         },
         "custom_NKRqdB": {
@@ -156,7 +150,6 @@
         "buy_buttons",
         "custom_rfPzQF",
         "custom_3bVtEN",
-        "custom_AWVUR3",
         "custom_NKRqdB",
         "custom_qY9CXE",
         "description",
