@@ -16,9 +16,9 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "ANNIVERSARY SALE",
+            "title": "EARLY CHRISTMAS SALE",
             "title_size": 80,
-            "subheading": "ENDS TODAY",
+            "subheading": "UP TO 70% OFF",
             "link": "shopify://collections/all",
             "link_text": "",
             "link_2": "shopify://collections/all",
@@ -83,67 +83,6 @@
         "height": 750,
         "framed": false,
         "parallax": true
-      }
-    },
-    "faq_QcQmaD": {
-      "type": "faq",
-      "blocks": {
-        "rich_text_GagXfe": {
-          "type": "rich-text",
-          "settings": {
-            "title": "",
-            "text": "<p>Answer to all your questions!</p>",
-            "align_text": "left"
-          }
-        },
-        "question_aY9ak9": {
-          "type": "question",
-          "settings": {
-            "title": "Free premium shipping",
-            "text": "<p>We ship all our orders within the USA with USPS. Do you order before 11 PM? Then your parcel will be sent the next day free of charge. So you will receive your order quickly and without extra costs!</p>"
-          }
-        },
-        "question_m7Fi7a": {
-          "type": "question",
-          "settings": {
-            "title": "Returns",
-            "text": "<p>Not quite satisfied? No worries! You can easily and quickly return your order within 30 days of receipt. We make sure the process goes smoothly, so you don't have to worry.</p>"
-          }
-        },
-        "question_CQBxCV": {
-          "type": "question",
-          "settings": {
-            "title": "Size",
-            "text": "<p>Our clothes fit exactly as indicated in the size chart. You will find the size chart with each product, so you can always choose the right size and be sure it fits perfectly.</p>"
-          }
-        },
-        "question_F9fBAk": {
-          "type": "question",
-          "settings": {
-            "title": "Neede more help?",
-            "text": "<p>Have a question or need advice? Don’t hesitate to contact us. We are here to assist you and provide expert guidance.<br/><br/>Email: info@elowenboutique.com<br/></p><p>Mon/Fri 9 AM–5 PM </p><p>Sat/Sun 10 AM–5 PM</p>"
-          }
-        },
-        "rich_text_PMX8Dm": {
-          "type": "rich-text",
-          "settings": {
-            "title": "",
-            "text": "<p>Mon/Fri 9 AM–5 PM, Sat/Sun 10 AM–5 PM<br/>Response within 24 hours</p>",
-            "align_text": "left"
-          }
-        }
-      },
-      "block_order": [
-        "rich_text_GagXfe",
-        "question_aY9ak9",
-        "question_m7Fi7a",
-        "question_CQBxCV",
-        "question_F9fBAk",
-        "rich_text_PMX8Dm"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "title": "Frequently Asked Questions"
       }
     },
     "featured_collection_Q3yyNb": {
@@ -236,8 +175,71 @@
         "padding_bottom": 36
       }
     },
+    "faq_QcQmaD": {
+      "type": "faq",
+      "blocks": {
+        "rich_text_GagXfe": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>Answer to all your questions!</p>",
+            "align_text": "left"
+          }
+        },
+        "question_aY9ak9": {
+          "type": "question",
+          "settings": {
+            "title": "Free premium shipping",
+            "text": "<p>We ship all our orders within the USA with USPS. Do you order before 11 PM? Then your parcel will be sent the next day free of charge. So you will receive your order quickly and without extra costs!</p>"
+          }
+        },
+        "question_m7Fi7a": {
+          "type": "question",
+          "settings": {
+            "title": "Returns",
+            "text": "<p>Not quite satisfied? No worries! You can easily and quickly return your order within 30 days of receipt. We make sure the process goes smoothly, so you don't have to worry.</p>"
+          }
+        },
+        "question_CQBxCV": {
+          "type": "question",
+          "settings": {
+            "title": "Size",
+            "text": "<p>Our clothes fit exactly as indicated in the size chart. You will find the size chart with each product, so you can always choose the right size and be sure it fits perfectly.</p>"
+          }
+        },
+        "question_F9fBAk": {
+          "type": "question",
+          "settings": {
+            "title": "Neede more help?",
+            "text": "<p>Have a question or need advice? Don’t hesitate to contact us. We are here to assist you and provide expert guidance.<br/><br/>Email: info@elowenboutique.com<br/></p><p>Mon/Fri 9 AM–5 PM </p><p>Sat/Sun 10 AM–5 PM</p>"
+          }
+        },
+        "rich_text_PMX8Dm": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>Mon/Fri 9 AM–5 PM, Sat/Sun 10 AM–5 PM<br/>Response within 24 hours</p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_GagXfe",
+        "question_aY9ak9",
+        "question_m7Fi7a",
+        "question_CQBxCV",
+        "question_F9fBAk",
+        "rich_text_PMX8Dm"
+      ],
+      "disabled": true,
+      "name": "FAQ",
+      "settings": {
+        "title": "Frequently Asked Questions"
+      }
+    },
     "contact_form_jPrqTn": {
       "type": "contact-form",
+      "disabled": true,
       "name": "Contact form",
       "settings": {
         "title": "Contact us",
