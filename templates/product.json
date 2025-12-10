@@ -129,6 +129,7 @@
         },
         "custom_thPKH8": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "<div class=\"selluxe-follower__container\" style=\"\n    display:flex;\n    align-items:center;\n    gap:10px;\n    background:#fff;\n    padding:10px 14px;\n    border-radius:8px;\n    box-shadow:0 2px 6px rgba(0,0,0,0.08);\n    font-family:inherit;\n    margin:12px 0;\n\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0981/7220/7450/files/Review_foto.jpg?v=1764757261\" \n         alt=\"Profile Picture\" \n         height=\"40\" width=\"40\" \n         style=\"border-radius:50%; object-fit:cover;\" \n         loading=\"lazy\">\n\n    <div style=\"font-size:14px; line-height:1.4; color:#333;\">\n        <strong>Sophia</strong>, <strong>Emma</strong>  \n        and <strong>20k+</strong> other women are wearing  \n        <strong>Elowen Boutique</strong>.\n    </div>\n</div>"
           }
