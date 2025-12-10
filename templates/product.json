@@ -88,6 +88,7 @@
         },
         "custom_3bVtEN": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "<div class=\"ultimate-badges\"></div>"
           }
