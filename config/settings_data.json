@@ -95,17 +95,16 @@
           "1524770292306": {
             "type": "announcement",
             "settings": {
-              "text": "🎄 CHRISTMAS SALE 🎄",
-              "link_text": "UP TO 70% OFF",
+              "text": "🎄 LAST CHRISTMAS SALE 🎄",
+              "link_text": "",
               "link": ""
             }
           },
           "1524770296206": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "LIMITED STOCK",
-              "link_text": "ONCE IT'S GONE, IT'S GONE",
+              "text": "BUY 2, GET AN EXTRA 10% OFF",
+              "link_text": "",
               "link": ""
             }
           }
@@ -123,7 +122,7 @@
           "sticky_index": true,
           "sticky_collection": false,
           "announcement_compact": true,
-          "announcement_above_header": true,
+          "announcement_above_header": false,
           "toolbar_menu": "",
           "toolbar_social": true,
           "show_locale_selector": true,
@@ -313,11 +312,6 @@
       "2200952712151285029": {
         "type": "shopify://apps/microsoft-clarity/blocks/brandAgents_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": false,
-        "settings": {}
-      },
-      "8703857832570158530": {
-        "type": "shopify://apps/opus-cart-upsell/blocks/cart-drawer-app/6a3c5cf8-b330-4c39-a8c5-80f923c2e741",
-        "disabled": true,
         "settings": {}
       },
       "13223602749629917723": {

@@ -24,6 +24,7 @@
       "block_order": [
         "liquid_DR3Qb4"
       ],
+      "disabled": true,
       "name": "Custom content",
       "settings": {
         "full_width": false,
