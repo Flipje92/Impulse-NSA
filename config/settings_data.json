@@ -102,6 +102,7 @@
           },
           "1524770296206": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "BUY 2, GET AN EXTRA 10% OFF",
               "link_text": "",
