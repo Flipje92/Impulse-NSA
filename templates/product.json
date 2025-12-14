@@ -80,7 +80,7 @@
         "custom_z3Kekz": {
           "type": "custom",
           "settings": {
-            "code": "<div class=\"ultimate-badges\" style=\"margin:2px 0; padding:0; line-height:1;\"></div>"
+            "code": "<div class=\"ultimate-badges\" style=\"margin:-100px 0; padding:0; line-height:1;\"></div>"
           }
         },
         "custom_NKRqdB": {
