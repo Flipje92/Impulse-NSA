@@ -9,32 +9,20 @@
  */
 {
   "sections": {
-    "rich_text_bCfdhr": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cFmV9Q": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Rich text"
-          }
-        },
-        "text_DiXFQ9": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p><strong>Our Christmas Sale Is in Full Swing — Thanks to You</strong><br/>As a thank you to our wonderful community, we’re celebrating the season with our biggest offers of the year. Your support means everything to us.</p><p>Enjoy up to <strong>70% OFF</strong> sitewide, plus:<br/>✨ Extra 10% OFF when you buy 2 items<br/>✨ Extra 15% OFF when you buy 3 items<br/>✨ Extra 20% OFF when you buy 4 items</p><p>Our most-loved styles are selling fast. If you can still add your size to your cart, it’s available — but not for long.<br/>All extra discounts apply automatically at checkout. 🎄✨</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cFmV9Q",
-        "text_DiXFQ9"
-      ],
-      "name": "Rich text",
+    "text_and_image_pjCUXF": {
+      "type": "text-and-image",
+      "name": "Image with text",
       "settings": {
-        "align_text": "center",
-        "narrow_column": true,
+        "image": "shopify://shop_images/Gemini_Generated_Image_6xdhs46xdhs46xdh.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>As we prepare for our upcoming move, I’m sharing one final Christmas Sale to make room for what’s next. Enjoy <strong>up to 70% OFF</strong>, with <strong>extra savings when you buy more</strong>.</p><p>We’re almost sold out — and once a piece is gone, it won’t return.</p><p>Thank you from the bottom of my heart for supporting Elowen Boutique. 🤍<br/>— <em>Elowen Hartley</em></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
         "divider": false
       }
     },
@@ -153,7 +141,7 @@
     }
   },
   "order": [
-    "rich_text_bCfdhr",
+    "text_and_image_pjCUXF",
     "text_and_image_cJDdkb",
     "collection-header",
     "main-collection",
