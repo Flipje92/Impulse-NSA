@@ -88,7 +88,7 @@
             "settings": {
               "logo": "shopify://shop_images/Elowen_loge_v1_zwart.svg",
               "logo-inverted": "shopify://shop_images/Elowen_Boutique_wit_f286212c-7ab6-4a3a-8e03-09fb4f531009.svg",
-              "desktop_logo_width": 300,
+              "desktop_logo_width": 400,
               "mobile_logo_width": 200
             }
           },
@@ -117,12 +117,12 @@
         "settings": {
           "main_menu_link_list": "hoofdmenu",
           "mega_menu_images": true,
-          "main_menu_alignment": "center-split",
+          "main_menu_alignment": "center",
           "header_style": "sticky",
           "sticky_index": false,
           "sticky_collection": false,
           "announcement_compact": true,
-          "announcement_above_header": false,
+          "announcement_above_header": true,
           "toolbar_menu": "",
           "toolbar_social": true,
           "show_locale_selector": true,
