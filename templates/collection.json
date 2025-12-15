@@ -9,6 +9,34 @@
  */
 {
   "sections": {
+    "rich_text_hg4epn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FmbEWV": {
+          "type": "heading",
+          "settings": {
+            "title": "25 Year Anniversary Sale 🤍 Celebrate with Us"
+          }
+        },
+        "text_QmnNqg": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>This year, Elowen Boutique celebrates <strong>25 years of timeless style</strong>.</p><p>To mark this special moment, we’re offering select Anniversary styles at special prices. Thoughtfully designed pieces created to feel effortless, flattering, and easy to wear — made to stay with you for years to come.</p><p>✨ <strong>Enjoy extra Anniversary savings when you choose more:</strong></p><ul><li><strong>Buy 2 items → enjoy an extra 10% off</strong></li><li><strong>Buy 3 items → enjoy an extra 15% off</strong></li><li><strong>Buy 4 or more items → enjoy an extra 20% off</strong></li></ul><p>All additional discounts are applied automatically at checkout.</p><p>Availability is limited, and styles will not be restocked once sold out.<br/>If you can still add it to your cart, it’s still available.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FmbEWV",
+        "text_QmnNqg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "advanced_content_bXhU6q": {
       "type": "advanced-content",
       "blocks": {
@@ -33,6 +61,7 @@
     },
     "text_and_image_pjCUXF": {
       "type": "text-and-image",
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/Gemini_Generated_Image_6xdhs46xdhs46xdh.png",
@@ -163,6 +192,7 @@
     }
   },
   "order": [
+    "rich_text_hg4epn",
     "advanced_content_bXhU6q",
     "text_and_image_pjCUXF",
     "text_and_image_cJDdkb",
