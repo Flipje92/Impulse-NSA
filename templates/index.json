@@ -68,7 +68,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Christmas deals",
+        "title": "Anniversary Deals",
         "home_featured_products": "black-friday",
         "per_row": 4,
         "rows": 2,
