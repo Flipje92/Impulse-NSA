@@ -87,7 +87,7 @@
         "custom_NKRqdB": {
           "type": "custom",
           "settings": {
-            "code": "<div class=\"product-block\">\n\n  <div style=\"\n    background-color:#f7f7f7;\n    color:#333;\n    padding:16px;\n    border:1px solid #000;\n    text-align:center;\n    font-family:Arial, sans-serif;\n    max-width:600px;\n    margin:12px auto;\n  \">\n\n    <div style=\"\n      color:#c0392b;\n      font-size:22px;\n      font-weight:700;\n      margin-bottom:4px;\n    \">\n      25 YEAR ANNIVERSARY SALE\n    </div>\n\n    <div style=\"\n      font-size:18px;\n      font-weight:700;\n      margin-bottom:6px;\n    \">\n      UP TO 80% OFF\n    </div>\n\n    <div style=\"\n      font-size:15px;\n      color:#666;\n      line-height:1.4;\n    \">\n      Now is the time to shop your favourite items at irresistible prices. As long as stocks last!\n    </div>\n\n  </div>\n\n</div>"
+            "code": "<!-- Elowen Boutique – Soft Update Block under Add to Cart -->\n<div class=\"elowen-atc-block\">\n  Due to high demand, availability may be limited for some items.\n</div>\n\n<style>\n  .elowen-atc-block{\n    margin-top:10px;\n    padding:10px 14px;\n    border-radius:8px;\n    background:#f4f6f4;            /* very light sage/grey */\n    color:#3a3a3a;\n    font-family:inherit;\n    font-size:13px;\n    line-height:1.4;\n  }\n\n  @media (max-width: 480px){\n    .elowen-atc-block{\n      font-size:12.5px;\n      padding:9px 12px;\n    }\n  }\n</style>"
           }
         },
         "description": {
