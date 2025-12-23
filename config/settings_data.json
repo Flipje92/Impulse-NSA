@@ -146,6 +146,7 @@
           },
           "menu_L7TpjA": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "show_footer_title": true,
               "menu": "hoofdmenu",
