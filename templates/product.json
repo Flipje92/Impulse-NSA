@@ -87,7 +87,7 @@
         "custom_NKRqdB": {
           "type": "custom",
           "settings": {
-            "code": "<!-- Elowen Boutique – Soft Update Block under Add to Cart -->\n<div class=\"elowen-atc-block\">\n  Due to high demand, availability may be limited for some items.\n</div>\n\n<style>\n  .elowen-atc-block{\n    margin-top:10px;\n    padding:10px 14px;\n    border-radius:8px;\n    background:#f4f6f4;            /* very light sage/grey */\n    color:#3a3a3a;\n    font-family:inherit;\n    font-size:13px;\n    line-height:1.4;\n  }\n\n  @media (max-width: 480px){\n    .elowen-atc-block{\n      font-size:12.5px;\n      padding:9px 12px;\n    }\n  }\n</style>"
+            "code": "<!-- Elowen Boutique – Soft Urgency Update (enhanced visibility) -->\n<div class=\"elowen-atc-block\">\n  Due to high demand, some items may sell out before checkout is completed.\n</div>\n\n<style>\n  .elowen-atc-block{\n    margin-top:12px;\n    padding:12px 14px;\n    border-radius:8px;\n    background:#eef1ee;              /* slightly stronger sage-grey */\n    border-left:3px solid #7F8F84;   /* warm sage accent */\n    color:#2f2f2f;\n    font-family:inherit;\n    font-size:13px;\n    line-height:1.45;\n    font-weight:500;                 /* makes it stand out, not bold */\n  }\n\n  @media (max-width: 480px){\n    .elowen-atc-block{\n      font-size:12.5px;\n      padding:11px 12px;\n    }\n  }\n</style>"
           }
         },
         "description": {
