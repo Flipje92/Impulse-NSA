@@ -116,7 +116,7 @@
         "custom_NKRqdB": {
           "type": "custom",
           "settings": {
-            "code": "<div class=\"elowen-atc-block\">\n  Due to high demand, some items may sell out before checkout is completed.\n</div>\n\n<style>\n  .elowen-atc-block{\n    margin-top:12px;\n    padding:12px 14px;\n    border-radius:8px;\n    background:#eef1ee;\n    border-left:3px solid #7F8F84;\n    color:#2f2f2f;\n    font-family:inherit;\n    font-size:13px;\n    line-height:1.45;\n    font-weight:500;\n  }\n\n  @media (max-width: 480px){\n    .elowen-atc-block{\n      font-size:12.5px;\n      padding:11px 12px;\n    }\n  }\n</style>"
+            "code": "<div class=\"elowen-atc-block\">\n  Due to high demand, some items may sell out quickly. If you’re still able to add it to your cart, it’s currently available.\n</div>\n\n<style>\n  .elowen-atc-block{\n    margin-top:12px;\n    padding:12px 14px;\n    border-radius:8px;\n    background:#eef1ee;\n    border-left:3px solid #7F8F84;\n    color:#2f2f2f;\n    font-family:inherit;\n    font-size:13px;\n    line-height:1.45;\n    font-weight:500;\n  }\n\n  @media (max-width: 480px){\n    .elowen-atc-block{\n      font-size:12.5px;\n      padding:11px 12px;\n    }\n  }\n</style>"
           }
         },
         "description": {
