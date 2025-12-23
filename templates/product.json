@@ -99,7 +99,7 @@
         "tab": {
           "type": "tab",
           "settings": {
-            "title": "Free premium shipping",
+            "title": "Free shipping",
             "content": "<p>We ship using a secure premium shipping method, including tracking, so you can rely on the most reliable service. Currently, we offer this premium shipping for free, take advantage of this offer while it's available!</p>",
             "page": ""
           }
@@ -339,7 +339,7 @@
       "type": "product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "COMBINE AND GET UP TO 20% EXTRA OFF",
+        "product_recommendations_heading": "COMBINE AND GET 10% EXTRA OFF",
         "related_count": 6
       }
     },
