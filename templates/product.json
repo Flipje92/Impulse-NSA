@@ -262,6 +262,7 @@
         "slide_4eQBjb",
         "slide_aBU8V4"
       ],
+      "disabled": true,
       "name": "SS - Testimonials #12",
       "settings": {
         "heading": "<h1><strong>Elowens's customer experiences</strong></h1>",
@@ -365,6 +366,76 @@
         "content_width": 1200,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "testimonials_ktRYtF": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_BGk449": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>They contacted me to confirm my address when something didn’t look quite right, making sure my order arrived without any issues. Very thoughtful and helpful customer service.</p>",
+            "image": "shopify://shop_images/117c506dfb028bd19cd01a2e86ba2e0e.jpg",
+            "author": "Linda K.",
+            "author_info": "Lexington"
+          }
+        },
+        "testimonial_4tUcTx": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Easy to use website, smooth ordering, and quick delivery. Everything arrived exactly as described. I would happily order again.</p>",
+            "image": "shopify://shop_images/ea68ce706d7545704d785aafc056f3e3.jpg",
+            "author": "Susan L.",
+            "author_info": "Cambridge"
+          }
+        },
+        "testimonial_MVrWjc": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Customer service was helpful and friendly. Delivery was quick, and the quality of the products is excellent. I would definitely recommend.</p>",
+            "image": "shopify://shop_images/b6f3b80b0df25f668e193518922bf9f2.jpg",
+            "author": "Elaine H.",
+            "author_info": "Newton"
+          }
+        },
+        "testimonial_qrNHyq": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The quality is excellent and the prices feel fair. I’m very glad I came across this shop and will order again.</p>",
+            "image": "shopify://shop_images/9de35590d476ce39da0ba1881ccb3667.jpg",
+            "author": "Margaret S.",
+            "author_info": "Brookline"
+          }
+        },
+        "testimonial_frg9hR": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Ordering was simple and delivery was quick. The size chart was accurate, and I’m very happy with my purchase.</p>",
+            "image": "shopify://shop_images/789b7869a649382a1cf112fb3c275574.jpg",
+            "author": "Patricia G.",
+            "author_info": "Concord"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_BGk449",
+        "testimonial_4tUcTx",
+        "testimonial_MVrWjc",
+        "testimonial_qrNHyq",
+        "testimonial_frg9hR"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
       }
     },
     "product-recommendations": {
@@ -520,6 +591,7 @@
     "main",
     "sub",
     "ss_testimonial_12_UFygey",
+    "testimonials_ktRYtF",
     "product-recommendations",
     "background-image-text",
     "faq_6zxVEL",
