@@ -433,7 +433,7 @@
       "settings": {
         "title": "What Our Customers Say",
         "align_text": "center",
-        "round_images": true,
+        "round_images": false,
         "color_background": "#f9f9f9",
         "color_text": "#1c1d1d"
       }
