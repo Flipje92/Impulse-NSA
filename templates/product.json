@@ -443,7 +443,7 @@
       "type": "product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "COMBINE AND GET 10% EXTRA OFF",
+        "product_recommendations_heading": "Combine and get 10% extra off",
         "related_count": 6
       }
     },
