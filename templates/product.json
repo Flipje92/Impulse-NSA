@@ -39,8 +39,37 @@
         },
         "custom_fUNRHB": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "<div class=\"product-info__liquid\">\n\n  <div style=\"font-size: 15px; line-height: 1.3; text-align: left;\">\n    <p style=\"margin: 4px 0; display: flex; align-items: center;\">\n      <img src=\"//charleston-boutique.us/cdn/shop/files/United_Parcel_Service_logo_2014_svg.png?v=1748953438&width=22\" width=\"22\" height=\"22\" style=\"margin-right: 6px;\">\n      <span>Free shipping with UPS</span>\n    </p>\n\n    <p style=\"margin: 4px 0; display: flex; align-items: center;\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0756/6956/9865/files/Ontwerp_zonder_titel_43.png?v=1708607723\" width=\"22\" height=\"22\" style=\"margin-right: 6px;\">\n      <span>30-day money back guarantee</span>\n    </p>\n  </div>\n\n</div>"
+          }
+        },
+        "sales_point_qRVXzc": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "truck",
+            "icon_size": 24,
+            "icon_text_padding": 8,
+            "text": "Free shipping"
+          }
+        },
+        "sales_point_qYA9YW": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "custom",
+            "custom_icon": "shopify://shop_images/Ontwerp_zonder_titel_43.webp",
+            "icon_size": 24,
+            "icon_text_padding": 8,
+            "text": "30-day money-back guarantee"
+          }
+        },
+        "sales_point_NNzG7c": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "lock",
+            "icon_size": 24,
+            "icon_text_padding": 8,
+            "text": "Secure checkout"
           }
         },
         "variant_picker": {
@@ -127,6 +156,9 @@
       "block_order": [
         "price",
         "custom_fUNRHB",
+        "sales_point_qRVXzc",
+        "sales_point_qYA9YW",
+        "sales_point_NNzG7c",
         "variant_picker",
         "custom_rG8DNm",
         "custom_dVXJXy",
