@@ -439,14 +439,6 @@
         "color_text": "#1c1d1d"
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show_product_recommendations": true,
-        "product_recommendations_heading": "Combine and get 10% extra off",
-        "related_count": 6
-      }
-    },
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
@@ -461,6 +453,14 @@
         "height": 650,
         "framed": false,
         "parallax": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "Combine and get 10% extra off",
+        "related_count": 6
       }
     },
     "faq_6zxVEL": {
@@ -593,8 +593,8 @@
     "sub",
     "ss_testimonial_12_UFygey",
     "testimonials_ktRYtF",
-    "product-recommendations",
     "background-image-text",
+    "product-recommendations",
     "faq_6zxVEL",
     "recently-viewed",
     "collection-return",
