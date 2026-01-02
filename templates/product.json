@@ -72,10 +72,10 @@
         "sales_point_NNzG7c": {
           "type": "sales_point",
           "settings": {
-            "icon": "lock",
+            "icon": "globe",
             "icon_size": 24,
             "icon_text_padding": 8,
-            "text": "Pay securely with credit card"
+            "text": "More than 50,000 satisfied customers"
           }
         },
         "variant_picker": {
