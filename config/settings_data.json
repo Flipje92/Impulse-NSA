@@ -876,7 +876,6 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product__price.on-sale {font-weight: bold; color: #0bb97d; font-size: 1.6rem;}",
       "@media only screen and (max-width: 767px) {.product-single__meta, .product-block--header, .product-single__title, .product-single__description, .product__price, .product-form, .product-form__controls, .product-popup-modal__content, .product-popup-modal__content * {text-align: left !important; }}",
       "@media only screen and (max-width: 767px) {.product-block--sales-point, .product-block--sales-point * {text-align: left !important; justify-content: flex-start !important; align-items: flex-start !important; } .product-block--sales-point .icon-and-text {display: flex; flex-direction: row; align-items: center; } .product-block--sales-point .sales-point {padding-left: 0 !important; margin-left: 0 !important; }}",
       ".product__price--compare {color: #928c82 !important;}",
