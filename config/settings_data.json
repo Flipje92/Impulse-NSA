@@ -881,7 +881,8 @@
       ".product__price--compare {color: #928c82 !important;}",
       ".BC-trustscore-container {display: flex; align-items: center; font-size: 1rem; color: #333; gap: 8px; flex-wrap: nowrap; overflow: hidden; white-space: nowrap; margin-bottom: 16px;}",
       ".product-single__title {margin-top: 4px !important; margin-bottom: -20px !important;}",
-      ".cart-link__bubble {color: transparent !important; /* tekst (het getal) verdwijnt */ font-size: 0 !important; /* zorgt dat er echt geen rest-ruimte staat */}"
+      ".cart-link__bubble {color: transparent !important; /* tekst (het getal) verdwijnt */ font-size: 0 !important; /* zorgt dat er echt geen rest-ruimte staat */}",
+      ".grid-product__price--original {color: #8c8c8c;}"
     ]
   }
 }
