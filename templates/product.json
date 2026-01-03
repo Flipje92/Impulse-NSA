@@ -70,10 +70,11 @@
         "sales_point_NNzG7c": {
           "type": "sales_point",
           "settings": {
-            "icon": "globe",
+            "icon": "custom",
+            "custom_icon": "shopify://shop_images/Untitled_design.webp",
             "icon_size": 24,
             "icon_text_padding": 8,
-            "text": "More than 50,000 satisfied customers"
+            "text": "Buy more & Save more!"
           }
         },
         "variant_picker": {
