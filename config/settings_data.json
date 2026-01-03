@@ -883,7 +883,7 @@
       ".product-single__title {margin-top: 4px !important; margin-bottom: -20px !important;}",
       ".cart-link__bubble {color: transparent !important; /* tekst (het getal) verdwijnt */ font-size: 0 !important; /* zorgt dat er echt geen rest-ruimte staat */}",
       ".grid-product__price--original {color: #8c8c8c;}",
-      ".product__price.on-sale {font-weight: bold; color: #000000; font-size: 1.6rem;}"
+      ".product__price.on-sale {font-weight: bold; color: #0BB97D; font-size: 1.6rem;}"
     ]
   }
 }
